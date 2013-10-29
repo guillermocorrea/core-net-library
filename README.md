@@ -1,16 +1,15 @@
 core-net-library
 ================
 
-Is a set of useful libraries and extensions for microsoft .net.
+Set of useful libraries and extensions for microsoft .net.
 
-CoreNetLibrary.Infraestructure
-================
+framework2/CoreNetLibrary.Infraestructure
+---------------------
 
 ...
 
 
-Adding soap extensions
----------------------
+### Adding soap extensions
   
 Add the Assembly reference to your proyect and in your .config file add this configuration section, change the type attribute value according to the soap extension you want to load:
 ```xml
