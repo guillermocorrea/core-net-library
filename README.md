@@ -16,8 +16,13 @@ Add the Assembly reference to your proyect and in your .config file add this con
   <system.web>
    <webServices>
       <soapExtensionTypes>
-        <add type="CoreNetLibrary.Infraestructure.WebServices.Extensions.EncoderExtension, CoreNetLibrary.Infraestructure" priority="1" group="0"/>
+        <add type="CoreNetLibrary.Infraestructure.WebServices.Extensions.UTF8EncoderExtension, CoreNetLibrary.Infraestructure" priority="1" group="0"/>
       </soapExtensionTypes>
     </webServices>
   </system.web>
+```
+
+Or you can add this attribute to your WebService method(s) or proxy client method(s) you want to instrument.
+```
+[UTF8EncoderExtension]
 ```
