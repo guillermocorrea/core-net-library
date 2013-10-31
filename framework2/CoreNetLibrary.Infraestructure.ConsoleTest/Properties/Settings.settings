@@ -1,9 +1,0 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CoreNetLibrary.Infraestructure.ConsoleTest.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="CoreNetLibrary_Infraestructure_ConsoleTest_WebReference_IBancorRecaudoWSservice" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://192.168.248.237/BancorWS/Credito/BCWebServiceRecaudo.dll/soap/IBancorRecaudoWS</Value>
-    </Setting>
-  </Settings>
-</SettingsFile>
